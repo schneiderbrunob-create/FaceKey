@@ -108,8 +108,11 @@ The changes that affect behaviour:
 
 ## Licences
 
+- FaceKey's own code (`Sources/FaceKey/App`, the build script, and the changes made to Glance's files) is MIT
+  licensed; see `LICENSE`.
 - Glance is MIT licensed, © 2026 Jonathan Zhou; see `LICENSE-Glance.txt`. That covers the code under
-  `Sources/FaceKey/Glance` and `Sources/FaceKey/Adapted`, and the animation files in `Resources`.
+  `Sources/FaceKey/Glance` and `Sources/FaceKey/Adapted`, and the animation files in `Resources`. Keep both
+  notices when you reuse this project.
 - The lock-screen window code is adapted by Glance from [SkyLightWindow](https://github.com/Lakr233/SkyLightWindow) (MIT).
 - `Resources/ArcFace.mlpackage` is a Core ML conversion of the `w600k_mbf` face model from
   [InsightFace](https://github.com/deepinsight/insightface), as shipped by Glance. InsightFace publishes its
